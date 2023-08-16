@@ -3,6 +3,13 @@ This is a sample backend service written in TypeScript, Fastify framework that g
 
 The backend service emulates a simple user directory with REST API endpoints. Each endpoint is instrumented with Autometrics.
 
+### Resources
+
+- see the [documentation site](https://docs.autometrics.dev) for more in-depth information on all Autometrics features.
+- ask for help and share feedback on [our Discord](https://discord.com/invite/MJr7pYzZQ4)!
+
+## Getting started
+
 To get the sample up and running you can follow these steps:
 
 1. Clone the repository and install the dependencies
@@ -49,3 +56,5 @@ Autometrics CLI will download and run a Prometheus binary under the hood and sta
 5. Preview the metrics in Autometrics Explorer
 
 Autometrics CLI will also start a server with the Explorer available on `localhost:6789`. You can browse it and start exploring your sample app metrics! (You might need to ping the endpoints a few times to see the data reflected).
+
+That's all!
